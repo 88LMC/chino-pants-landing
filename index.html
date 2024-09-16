@@ -11,6 +11,18 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel">
+        // Aquí irá tu componente React
+        function App() {
+            return (
+                <div className="flex flex-col min-h-screen bg-gray-50">
+                    {/* Contenido de tu landing page */}
+                    <h1 className="text-4xl font-bold text-center mt-10">ChicChinos - Próximamente</h1>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
 </body>
 </html>
